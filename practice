@@ -1,0 +1,211 @@
+<!DOCYPE html>
+<html>
+<head>
+<title>practice time</title>
+<style>
+footer {
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	font-size: small;
+	}
+</style>
+</head>
+
+<body>
+	<h1>Pronoun Practice!</h1>
+	<p>Instructions: write each form, one in each box. Write in all lower case.
+	<h3>is, ea id:</h3>
+<FORM>
+<TABLE border=0>
+
+      <tr>
+      	<th colspan="2"> </th>
+        <th colspan="3">singular</th>
+        <th colspan="2"> </th>
+      </tr>
+      <tr>
+      	<td>Nom</td>
+        <td>   </td>
+        <td><input TYPE="TEXT" NAME="is" SIZE="5"></td>
+		<td><input TYPE="TEXT" NAME="ea1" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="id1" SIZE="5"></td>
+        <td>   </td>
+        <td><input type="button" value="Check" onClick="
+	if( form.is.value == 'is')
+	if( form.ea1.value == 'ea')
+	if( form.id1.value == 'id')
+    {
+	alert('correct');}
+else
+	alert('incorrect');"></td>
+      </tr>
+      <tr>
+      	<td>Gen</td>
+        <td>   </td>
+        <td><input TYPE="TEXT" NAME="eius1" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="eius2" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="eius3" SIZE="5"></td>
+        <td>   </td>
+        <td><input type="button" value="Check" onClick="
+    if( form.eius1.value == 'eius')
+	if( form.eius2.value == 'eius')
+	if( form.eius3.value == 'eius')
+	{
+	alert('correct');}
+else
+	alert('incorrect');"></td>
+      </tr>
+      <tr>
+      	<td>Dat</td>
+        <td>   </td>
+        <td><input TYPE="TEXT" NAME="ei1" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="ei2" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="ei3" SIZE="5"></td>
+        <td>   </td>
+        <td><input type="button" value="Check" onClick="
+	if( form.ei1.value == 'ei')
+	if( form.ei2.value == 'ei')
+    if( form.ei3.value == 'ei')
+{
+	alert('correct');}
+else
+	alert('incorrect');"></td>
+      </tr>
+      <tr>
+      	<td>Acc</td>
+        <td>   </td>
+        <td><input TYPE="TEXT" NAME="eum" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="eam" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="id2" SIZE="5"></td>
+        <td>   </td>
+        <td><input type="button" value="Check" onClick="
+	if( form.eum.value == 'eum')
+	if( form.eam.value == 'eam')
+	if( form.id2.value == 'id')
+{
+	alert('correct');}
+else
+	alert('incorrect');"></td>
+      </tr>
+      <tr>
+      	<td>Abl</td>
+        <td>   </td>
+        <td><input TYPE="TEXT" NAME="eo1" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="ea2" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="eo2" SIZE="5"></td>
+        <td>   </td>
+        <td><input type="button" value="Check" onClick="
+    if( form.eo1.value == 'eo')
+	if( form.ea2.value == 'ea')
+    if( form.eo2.value == 'eo')
+{
+	alert('correct');}
+else
+	alert('incorrect');"></td>
+      </tr>
+      <tr>
+      	<th colspan="2"> </th>
+      	<th colspan="3">plural</th>
+        <th colspan="2"> </th>
+      </tr>
+      <tr>
+      	<td>Nom</td>
+        <td>   </td>
+      	<td><input TYPE="TEXT" NAME="ei4" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="eae" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="ea3" SIZE="5"></td>
+        <td>   </td>
+        <td><input type="button" value="Check" onClick="
+    if( form.ei4.value == 'ei')
+	if( form.eae.value == 'eae')
+	if( form.ea3.value == 'ea')
+{
+	alert('correct');}
+else
+	alert('incorrect');"></td>
+      </tr>
+      <tr>
+      	<td>Gen</td>
+        <td>   </td>
+      	<td><input TYPE="TEXT" NAME="eorum1" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="earum" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="eorum2" SIZE="5"></td>
+        <td>   </td>
+        <td><input type="button" value="Check" onClick="
+    if( form.eorum1.value == 'eorum')
+	if( form.earum.value == 'earum')
+	if( form.eorum2.value == 'eorum')
+{
+	alert('correct');}
+else
+	alert('incorrect');"></td>
+      </tr>
+      <tr>
+      	<td>Dat</td>
+        <td>   </td>
+      	<td><input TYPE="TEXT" NAME="eis1" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="eis2" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="eis3" SIZE="5"></td>
+        <td>   </td>
+        <td><input type="button" value="Check" onClick="
+    if( form.eis1.value == 'eis')
+	if( form.eis2.value == 'eis')
+	if( form.eis3.value == 'eis')
+{
+	alert('correct');}
+else
+	alert('incorrect');"></td>
+      </tr>
+      <tr>
+      	<td>Acc</td>
+        <td>   </td>
+      	<td><input TYPE="TEXT" NAME="eos" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="eas" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="ea4" SIZE="5"></td>
+        <td>   </td>
+        <td><input type="button" value="Check" onClick="
+	if( form.eos.value == 'eos')
+	if( form.eas.value == 'eas')
+	if( form.ea4.value == 'ea')
+{
+	alert('correct');}
+else
+	alert('incorrect');"></td>
+      </tr>
+      <tr>
+      	<td>Abl</td>
+        <td>   </td>
+      	<td><input TYPE="TEXT" NAME="eis4" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="eis5" SIZE="5"></td>
+        <td><input TYPE="TEXT" NAME="eis6" SIZE="5"></td>
+        <td>   </td>
+        <td><input type="button" value="Check" onClick="
+    if( form.eis4.value == 'eis')
+	if( form.eis5.value == 'eis')
+	if( form.eis6.value == 'eis')
+{
+	alert('correct');}
+else
+	alert('incorrect');">
+      </tr>
+<tr>
+<td><INPUT TYPE="RESET"></td>
+</tr>
+<tr>
+<td>
+<INPUT TYPE="button" value="Show correct" onClick="
+	alert('is ea id, eius eius eius, ei ei ei, eum eam id, eo ea eo; ei eae ea, eorum earum eorum, eis eis eis, eos eas ea, eis eis eis')"> </td>
+</tr>
+
+
+
+</table>
+</FORM>
+
+</body>
+<br>
+<footer>
+<p>Inspired by <a href="http://artemis.austincollege.edu/acad/cml/rcape/latin/14/is.html"><b>this</b></a> page from the Oxford Latin online workbook.</p>
+<p>(Not stolen)</p>
+</footer>
+</html>
