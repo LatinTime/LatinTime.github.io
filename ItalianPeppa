@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Peppa Video</title>
+</head>
+<body>
+<p>Here is a lovely video for your viewing pleasure</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HCoeudCV9Vg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
