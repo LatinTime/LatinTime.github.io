@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey</title>
+    
+   <link rel="stylesheet" type="text/css" href="EntireWebsite.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://latintime.github.io/nav.html"></script>
+</head>
+  
+<nav>
+<ul class="Navbar" style="font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;" position: fixed;
+  top: 0; width: 100%;>
+	<li>
+		<div class="dropdown">
+    <button class="dropbtn">Home
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="index.html">Home</a>
+      <a href="https://www.latintime.org/">A whole other site</a>
+      </div>
+	</li>
+	<li>
+    <a href="VideoArchives.html">Video Archive</a>
+  </li>
+  <li>
+    <a href="AlphabetSurvey.html">Survey</a>
+	</li>	
+  <li><a href="https://latintime.github.io/practice.html">Practice exercises</a></li>
+	<li>
+		<a href="https://www.latintime.org/gaius.html">GAIUS</a>
+	</li>
+</nav>
+  <body>
+    <h1>welcome</h1>
+    <p>Here is a lovely survey for random data collection purposes</p>
+    <P>It would be appreciated if you filled it out:</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeotk4iLZRxFhQ-G9HBxoNNbLeU6CZSLzyXxF94U0XADFr6sw/viewform?embedded=true" width="640" height="1828" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  <p>If you are one of the many people who have already taken this useless survey, thanks for your contribution to my nonexistent research</p>
+  </body>
+</html>
