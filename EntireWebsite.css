@@ -1,0 +1,124 @@
+#PageGuide{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#Home .p, .h3{
+  font-family: "Comic sans-serif monospace";
+  font-size: 20px;
+}
+#Salvete{
+  font-family: "Comic sans-serif monospace";
+  font-size: 36px;
+}
+
+/* BEGIN NAVIGATION BAR STYLING */
+
+/*Deletes automatic styling*/
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0097fc;
+}
+
+/*Makes Navbar be Horizontal*/
+li{
+  float: left
+}
+
+
+/*Text color and padding*/
+li a{
+  display: block;
+  text-align: center;
+  color: black;
+  padding: 16px;
+}
+
+/*Changes color of navbar buttons on hover*/
+li a:hover, .dropdown:hover{
+  background-color: #0065fc;
+}
+
+.dropdown-content a:hover{
+  background-color: #d6d6d6
+}
+
+/*Shows dropdown box on hover*/
+.dropdown:hover .dropdown-content{
+  display:block;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #0065FC;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  float: none;
+  overflow: hidden;
+
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background-color
+}
+
+.dropdown-content a:hover {
+  background-color: #d6d6d6;
+}
+
+/* @font-face time, specifically adding the certain font for the chart pages */
+
+@font-face {
+    font-family: 'Eras Demi ITC';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Eras Demi ITC'), url('ERASDEMI.woff') format('woff');
+}
+@font-face {
+    font-family: 'Eras Bold ITC';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Eras Bold ITC'), url('ERASBD.woff') format('woff');
+}
+@font-face {
+    font-family: 'Eras Medium ITC';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Eras Medium ITC'), url('ERASMD.woff') format('woff');
+}
+@font-face {
+    font-family: 'Eras Ultra ITC';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Eras Ultra ITC'), url('eras-ultra-itc-5871819ba5ce2.woff') format('woff');
+}
