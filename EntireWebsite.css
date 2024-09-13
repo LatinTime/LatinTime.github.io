@@ -122,3 +122,5 @@ li a:hover, .dropdown:hover{
     font-weight: normal;
     src: local('Eras Ultra ITC'), url('eras-ultra-itc-5871819ba5ce2.woff') format('woff');
 }
+/*misc*/
+p.rip { font-size: 48px; style: bold;}
